@@ -1,7 +1,7 @@
 # @domain.js/aes
 aes encode and decode functions for domain.js internal
 
-[![Build status](https://travis-ci.com/domain.js/aes.svg?branch=master)](https://travis-ci.org/domain.js/aes)
+[![Build status](https://travis-ci.com/domain.js/aes.svg?branch=master)](https://travis-ci.com/domain.js/aes)
 [![codecov](https://codecov.io/gh/domain.js/aes/branch/master/graph/badge.svg)](https://codecov.io/gh/domain.js/aes)
 
 # Installation
@@ -9,7 +9,7 @@ aes encode and decode functions for domain.js internal
 
 # Usage
 <pre>
-const { encrypt, decrypt } = require('@domain.js/aes')();
+const { encrypt, decrypt } = require('@domain.js/aes').default();
 
 const key = "123";
 const msg = aes.encrypt("hello world", key);
