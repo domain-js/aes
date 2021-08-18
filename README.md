@@ -1,8 +1,8 @@
 # @domain.js/aes
 aes encode and decode functions for domain.js internal
 
-[![Build status](https://travis-ci.com/domain.js/aes.svg?branch=master)](https://travis-ci.com/domain.js/aes)
-[![codecov](https://codecov.io/gh/domain.js/aes/branch/master/graph/badge.svg)](https://codecov.io/gh/domain.js/aes)
+[![Build status](https://travis-ci.com/domain-js/aes.svg?branch=master)](https://travis-ci.com/domain-js/aes)
+[![codecov](https://codecov.io/gh/domain-js/aes/branch/master/graph/badge.svg)](https://codecov.io/gh/domain-js/aes)
 
 # Installation
 <pre>npm i @domain.js/aes --save</pre>
