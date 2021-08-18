@@ -27,6 +27,7 @@
     "crypto-js": "^4.0.0"
   },
   "devDependencies": {
+    "codecov": "^3.8.3",
     "jest": "^24.9.0"
   }
 }
