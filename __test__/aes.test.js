@@ -1,4 +1,4 @@
-const AES = require("../dist").default;
+const AES = require("../dist").main;
 
 describe("AES", () => {
   const aes = AES();

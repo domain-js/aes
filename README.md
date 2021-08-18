@@ -9,7 +9,7 @@ aes encode and decode functions for domain.js internal
 
 # Usage
 <pre>
-const { encrypt, decrypt } = require('@domain.js/aes').default();
+const { encrypt, decrypt } = require('@domain.js/aes').main();
 
 const key = "123";
 const msg = aes.encrypt("hello world", key);

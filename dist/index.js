@@ -1,8 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.main = void 0;
 const cryptojs = require("crypto-js/core");
 const AES = require("crypto-js/aes");
-exports.default = () => {
+const main = () => {
     // aes-256-cbc encrypt
     const encrypt = (message, key) => AES.encrypt(message, key).toString();
     // aes-256-cbc decrypt
@@ -12,3 +13,4 @@ exports.default = () => {
         decrypt,
     });
 };
+exports.main = main;

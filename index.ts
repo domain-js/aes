@@ -1,7 +1,7 @@
 import * as cryptojs from "crypto-js/core";
 import * as AES from "crypto-js/aes";
 
-export default () => {
+export const main = () => {
   // aes-256-cbc encrypt
   const encrypt = (message: string, key: string) => AES.encrypt(message, key).toString();
 
